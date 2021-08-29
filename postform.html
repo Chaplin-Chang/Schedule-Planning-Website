@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>post message</title>
+<body>
+	<form method="post" action="{{url_for('processreq')}}" name="post_form">
+	<h3>Hello {{name}}</h3>
+	<p><input type="text" name="key" placeholder="key"></p>
+	<p><input type="text" name="val" placeholder="value"></p>
+	<p><button type="submit">post</button></p>
+	</form>
+</body>
+</head>
+</html>
